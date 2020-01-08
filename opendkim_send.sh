@@ -1,7 +1,7 @@
 #!/bin/bash
 
 opendkim_domain=${1};
-list=$(cat sale_list);
+list=$(cat ./level1/level1);
 c=0;
 #edited template
 for i in $list;
